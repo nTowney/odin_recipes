@@ -16,3 +16,7 @@ Some skills I will have demonstrated by the end of the project:
     <li>adding images properly to my webpages</li>
     <li>managing my repository on GitHub</li>
 </ol>
+This webpage is going to have a home page which links to each of the recipes. Each recipe page will also include a link back to the home page. I plan on having three recipes:
+Shepherd's Pie
+Mashed Potatoes
+Chocolate Chip Cookies
