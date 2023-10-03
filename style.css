@@ -2,11 +2,18 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     text-align: left;
+    color: midnightblue;
 }
 h1{
     font-size: 48px;
     font-weight: 800;
     text-align: center;
+    border: 10px;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: green;
+    background-color: goldenrod;
 }
 h2{
     font-size: 28px;
