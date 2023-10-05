@@ -1,8 +1,15 @@
+html{
+    background-color: #202627;
+}
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
-    color: midnightblue;
+    color: whitesmoke;
     margin: 10px auto;
+}
+body{
+    width: 700px;
+    margin: 0 auto;
 }
 h1{
     font-size: 48px;
@@ -11,8 +18,7 @@ h1{
     border: 10px;
     padding: 10px;
     width: fit-content;
-    color: gold;
-    background-color: forestgreen;
+    color: goldenrod;
     margin: 0 auto 0;
 }
 h2{
