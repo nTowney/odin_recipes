@@ -20,3 +20,8 @@ This webpage is going to have a home page which links to each of the recipes. Ea
 Shepherd's Pie
 Mashed Potatoes
 Chocolate Chip Cookies
+
+10/4/23;
+Progress update! I have accomplished all of the goals I had set out to achieve with my current layout. I will now be working on refining my CSS skills and polishing the webpage.
+
+My goal for the webpage is to have a column on the left with the recipes linked (with photos) and have the content all displayed in the center. The center content will be able to scroll without the recipe link column moving.
