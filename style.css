@@ -24,9 +24,9 @@ h1{
     display: inline-block;
 }
 img{
-    margin: 0px;
-    height: 100px;
-    width: auto;
+    margin: 10px;
+    width: 400px;
+    height: auto;
     display: block;
 }
 .main-image{
@@ -37,13 +37,16 @@ img{
 }
 .recipe-links{
     width: fit-content;
-    margin-left: 20px;
-    margin-top: 20px;
-    border: 8px solid  goldenrod;
+    margin: 20px auto;
+    border: 5px solid  goldenrod;
     border-radius: 20px;
     padding: 10px;
 }
 .recipe-body{
     width: 700px;
     margin: 0px auto;
+}
+.header{
+    font-size: 24px;
+    padding: 8px;
 }
