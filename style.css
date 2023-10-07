@@ -8,7 +8,7 @@ html{
     margin: 10px auto;
 }
 h1{
-    font-size: 48px;
+    font-size: 60px;
     font-weight: 800;
     text-align: center;
     border: 10px;
@@ -17,15 +17,15 @@ h1{
     color: goldenrod;
     margin: 0 auto 0;
 }
-h2{
-    font-size: 28px;
+.recipe-link-name{
+    font-size: 60px;
     font-weight: 700;
     margin: 10px auto 10px;
     display: inline-block;
 }
 img{
-    margin: 10px;
-    height: 300px;
+    margin: 0px;
+    height: 100px;
     width: auto;
     display: block;
 }
@@ -34,4 +34,16 @@ img{
     height: auto;
     width: 400px;
     margin: 20px auto;
+}
+.recipe-links{
+    width: fit-content;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 8px solid  goldenrod;
+    border-radius: 20px;
+    padding: 10px;
+}
+.recipe-body{
+    width: 700px;
+    margin: 0px auto;
 }
