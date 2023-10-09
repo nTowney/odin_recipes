@@ -1,55 +1,61 @@
 html{
-    background-color: #232526;
+    background-color: #09040b;
     padding: 10px;
 }
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: lightgray;
     font-size: 16px;
+    box-sizing: border-box;
 }
 .title{
     display: iblock;
     font-size: 60px;
     text-align: center;
-    color: goldenrod;
+    color: #0ed0dc;
 }
 img{
     height: 150px;
     display: inline-block;
     vertical-align: top;
+    border-right:  solid 5px #ff73b0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .recipe-block{
-    border: solid 5px goldenrod;
+    border: solid 5px #ff73b0;
     width: fit-content;
     border-radius: 10px;
-    margin-left: 0px;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: inline-block;
-    padding: 20px;
+    margin: 10px auto;
+    background-color: #0ed0dc;
+    padding: 0px;
+    
 }
 .recipe-title{
-    color: goldenrod;
+    color: #5a2158;
     font-size: 36px;
+    text-align: center;
     
 }
 .recipe-details{
     width: 300px;
     height: 150px;
-    border: solid 5px white;
+    /* border: solid 2px #ff73b0; */
     display: inline-block;
     margin: 0px 0px;
     vertical-align: top;
+    padding: 0px;
 }
 .recipe-details a{
-    background-color: goldenrod;
-    color: black;
+    background-color: #ff73b0;
+    color: #5a2158;
     font-size: 24px;
     font-weight: 700;
-    display: inline-block;
+    display: block;
     padding: 5px 10px;
-    margin: 0px auto;
-    vertical-align: top;
-    border-radius: 300px;
+    margin: 20px auto;
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+    border: solid 2px #5a2158;
 }
