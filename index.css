@@ -1,6 +1,8 @@
 html{
     background-color: #09040b;
     padding: 10px;
+    background-image: url(img/neon-space-warp.jpeg);
+    background-size: cover;
 }
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -36,7 +38,6 @@ img{
 .recipe-title{
     color: #0ed0dc;
     font-size: 36px;
-    display: inline-flexbox;
     text-align: center;
     
 }
