@@ -3,6 +3,8 @@ html{
     padding: 10px;
     background-image: url(img/neon-space-warp.jpeg);
     background-size: cover;
+    
+   
 }
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -10,56 +12,4 @@ html{
     font-size: 16px;
     box-sizing: border-box;
     font-weight: 300;
-}
-.title{
-    display: iblock;
-    font-size: 60px;
-    text-align: center;
-    color: #0ed0dc;
-}
-img{
-    height: 150px;
-    width: 200px;
-    display: inline-block;
-    vertical-align: top;
-    border-right:  solid 5px #ff73b0;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-.recipe-block{
-    border: solid 5px #ff73b0;
-    width: fit-content;
-    border-radius: 10px;
-    margin: 10px auto;
-    background-color: #09040b;
-    padding: 0px;
-    
-}
-.recipe-title{
-    color: #0ed0dc;
-    font-size: 36px;
-    text-align: center;
-    
-}
-.recipe-details{
-    width: 300px;
-    height: 150px;
-    /* border: solid 2px #ff73b0; */
-    display: inline-block;
-    margin: 0px 0px;
-    vertical-align: top;
-    padding: 0px;
-}
-.recipe-details a{
-    background-color: #ff73b0;
-    color: #09040b;
-    font-size: 24px;
-    font-weight: 700;
-    display: block;
-    padding: 5px 10px;
-    margin: 0px auto;
-    border-radius: 20px;
-    text-align: center;
-    width: fit-content;
-    border: solid 2px #5a2158;
 }
