@@ -1,15 +1,74 @@
 html{
     background-color: #09040b;
     padding: 10px;
-    background-image: url(img/neon-space-warp.jpeg);
+    background-image: url(./img/neon-bars-background.jpg);
     background-size: cover;
     
    
 }
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: lightgray;
+    color: #0ebaaa;
     font-size: 16px;
     box-sizing: border-box;
-    font-weight: 300;
+    font-weight: 200;
+    margin: 100;
+    padding: 100;
+}
+img{
+    width: 200px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.card-list{
+    /* border: 2px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.recipe-card{
+    display: flex;
+    border: 5px solid #f829dc;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    background-color: #04022aa0;
+}
+.recipe-pic{
+    /* border: 2px solid #fff; */
+    display: flex;
+    border-right: solid 5px #f829dc;
+}
+.recipe-details{
+    /* border: 2px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: center;
+    
+}
+.recipe-title{
+    /* border: 2px solid #fff; */
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 36px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.recipe-link{
+    display: flex;
+    border: 2px solid #f829dc;
+    border-radius: 30px;
+    margin-top: auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: #09040b;
+    padding: 5px 10px;
+    color: #0ebaaa;
 }
