@@ -1,0 +1,101 @@
+html{
+    background-color: #09040b;
+    padding: 10px;
+    background-image: url(../img/neon-bars-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #11f3ff;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-weight: 200;
+    margin: 100;
+    padding: 100;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    border-radius: 5px;
+}
+a{
+    display: flex;
+    color: #f829dc;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    border: 5px solid #f829dc;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 20px auto;
+}
+.content{
+    display: flex;
+    width: 700px;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 10px;
+}
+.content li{
+    display: list-item;
+    font-size: 18px;
+}
+.content a{
+    font-size: 18px;
+    display: inline;
+}
+ol{
+    display: flex;
+    width: 700px;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    font-size: 18px;
+}
+ul,
+li{
+    display: flex;
+    width: 700px;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    font-size: 18px;
+}
+.recipe-body{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    background-color: #04022aba;
+    margin: 0 auto;
+    padding: 20px;
+    border: solid 5px #f829dc;
+    border-radius: 30px;
+}
+.header{
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+    color: #f829dc;
+    margin-bottom: -20px;
+}
+.header-2{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    color: #f829dc;
+    margin-bottom: -5px;
+    margin-top: 20px;
+}

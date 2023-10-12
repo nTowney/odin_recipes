@@ -3,12 +3,12 @@ html{
     padding: 10px;
     background-image: url(./img/neon-bars-background.jpg);
     background-size: cover;
-    
+    background-attachment: fixed;
    
 }
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #0ebaaa;
+    color: #11f3ff;
     font-size: 16px;
     box-sizing: border-box;
     font-weight: 200;
@@ -26,7 +26,6 @@ body{
     justify-content: center;
 }
 .card-list{
-    /* border: 2px solid #fff; */
     display: flex;
     flex-direction: column;
     width: 500px;
@@ -37,15 +36,13 @@ body{
     border-radius: 10px;
     justify-content: space-between;
     margin-bottom: 40px;
-    background-color: #04022aa0;
+    background-color: #04022aba;
 }
 .recipe-pic{
-    /* border: 2px solid #fff; */
     display: flex;
     border-right: solid 5px #f829dc;
 }
 .recipe-details{
-    /* border: 2px solid #fff; */
     display: flex;
     flex-direction: column;
     flex: 2;
@@ -53,7 +50,6 @@ body{
     
 }
 .recipe-title{
-    /* border: 2px solid #fff; */
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
@@ -68,7 +64,7 @@ body{
     margin-top: auto;
     margin-bottom: 20px;
     font-size: 20px;
-    background-color: #09040b;
+    background-color: #04022a;
     padding: 5px 10px;
-    color: #0ebaaa;
+    color: #11f3ff;
 }
