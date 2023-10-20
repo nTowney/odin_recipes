@@ -1,9 +1,11 @@
 html{
     background-color: #09040b;
-    padding: 10px;
+    /* padding: 10px; */
     background-image: url(./img/neon-bars-background.jpg);
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
    
 }
 *{
@@ -23,12 +25,23 @@ img{
 }
 body{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+.footer{
+    display: flex;
+    border: solid 5px #f829dc;
+    background-color: #04022a;
+    margin: 0;
+    padding: 2px 5px;
 }
 .card-list{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: fit-content;
+    flex-wrap: wrap;
+    height: 100vh;
 }
 .recipe-card{
     display: flex;
@@ -36,7 +49,10 @@ body{
     border-radius: 10px;
     justify-content: space-between;
     margin-bottom: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
     background-color: #04022aba;
+    width: 500px;
 }
 .recipe-pic{
     display: flex;

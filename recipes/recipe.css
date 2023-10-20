@@ -4,13 +4,13 @@ html{
     background-image: url(../img/neon-bars-background.jpg);
     background-size: cover;
     background-attachment: fixed;
+    box-sizing: border-box;
    
 }
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #11f3ff;
     font-size: 16px;
-    box-sizing: border-box;
     font-weight: 200;
     margin: 100;
     padding: 100;
